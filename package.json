@@ -1,0 +1,17 @@
+{
+  "name": "payload-v4-reproductions",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node --env-file=.env --import tsx"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "4.0.0-beta.9",
+    "graphql": "^16.8.1",
+    "payload": "4.0.0-beta.9"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
